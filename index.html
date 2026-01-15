@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Dictionary App</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dictionary Web App</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<div class="container">
+  <div class="container">
     <h1>📖 Dictionary App</h1>
 
     <div class="search-box">
-        <input type="text" id="wordInput" placeholder="Enter a word..." />
-        <button onclick="searchWord()">Search</button>
+      <input type="text" id="wordInput" placeholder="Enter a word..." />
+      <button id="searchBtn">Search</button>
     </div>
 
-    <div id="result" class="result"></div>
-</div>
+    <div id="resultBox" class="result-box">
+      <p class="hint">Search any English word to get meaning, phonetics & audio 🎧</p>
+    </div>
+  </div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
